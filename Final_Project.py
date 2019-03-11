@@ -6,4 +6,9 @@ magic_number = 3
 guess = int(input('Enter a number:'))
 
 while guess != magic_number:
-    print
+    print('Guess again')
+    guess = int(input('Enter a number:'))
+print('Now that you got the number I have another task for you.')
+
+# I am just going to have them do like an either or thing.
+
