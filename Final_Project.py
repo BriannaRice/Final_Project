@@ -11,15 +11,18 @@ while guess != magic_number:
 print('Now that you got the number I have another task for you.', "\n")
 
 while True:
-    Mystery = int(input("Enter random number"))
-    if Mystery > 30:
+    Mystery = int(input("Enter number"))
+    if Mystery > 100:
         print("Nope to big of a number sorry", "\n")
-    elif Mystery < 1:
+    elif Mystery < 20:
         print("No lager number", "\n")
     else:
         print("Good choice", "\n")
         break
-
+'''
+ I am making kind of like a tressure hunt so you dont know what 
+ your doing untill your done
+ '''
 
 
 
