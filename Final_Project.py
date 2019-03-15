@@ -1,8 +1,7 @@
 '''
-This program is a final project and it is sending the person on a scavenger hunt so that they will
-continue following a wild pat until the end where they find out whats it for.
+I already started before I knew that they all had to go together
+so some of it makes sense the rest doesn't
 '''
-
 # 3/11/19 Final Project
 # Brianna Rice
 
@@ -14,6 +13,8 @@ while guess != magic_number:
     print('Guess again', "\n")
     guess = int(input('Enter a number:'))
 print('Now that you got the number I have another task for you.', "\n")
+
+# I'm getting them to guess the numb
 
 while True:
     Mystery = int(input("Enter number: "))
