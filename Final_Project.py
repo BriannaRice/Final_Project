@@ -24,6 +24,9 @@ while True:
  your doing untill your done
  '''
 
-
+for i in range(1,3):
+   for j in range(7,10):
+    print(i,j)
+    
 
 
