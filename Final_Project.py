@@ -43,6 +43,9 @@ def print_something():
 print('\r\n', scan)
 print_something()
 
+for i in range(1,3):
+   for j in range(7,10):
+    print(i,j)
 
 
 
